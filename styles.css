@@ -1,0 +1,39 @@
+.jumbotron {
+    background-color: blue;
+    color:white;
+    font-size: 55px;
+
+    text-align: center;
+    width: 80%;
+    position: relative;
+    left: 10%;
+
+
+}
+
+
+
+#search-parameters {
+background-color: navy;
+color: white;
+width: 101.5%;
+position: relative;
+right: .8%;
+
+}
+
+.top {
+
+    border-width: 1%;
+    border-color: blueviolet;
+    border-style: solid;
+    margin-left: 10%;   
+    margin-right: 10%; 
+    padding-left: .5%;
+    padding-right: .5%;
+    padding-bottom: .5%;
+
+}
+
+
+

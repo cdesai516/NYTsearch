@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">       
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="logic.js"></script>
+
+
+</head>
+
+
+
+<body>
+
+    <header class="jumbotron">
+
+
+    <p id="nyt">
+        New York Times Search
+    </p>
+    </header>
+
+
+
+
+
+
+    <div class="top">
+        <h3 id="search-parameters">
+            Search Parameters
+        </h3>
+
+        <div class="input">
+                <form action="/action_page.php">
+                    Search Term: 
+                    <br>
+                    <input type="text" name="search-term" id="userInput1"><br>
+
+                    Number of Records to Retrieve: 
+                    <br>
+                    <input type="text" name="number-of-records" id="userInput2"><br>
+
+                    Start Year (Optional): 
+                    <br>
+                    <input type="text" name="start-year" id="userInput3"><br>
+
+                    End Year (Optional): 
+                    <br>
+                    <input type="text" name="end-year" id="userInput4"><br>
+                </form>
+
+                <button id="search">Search</button>
+
+                <button id="clear-results">Clear Results</button>
+        </div>
+
+
+    </div>
+
+
+       
+
+</body>
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
